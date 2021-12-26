@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./css/main.min.css">
     <title>starter</title>
 </head>
+
 <body>
 
     <!-- HEADER -->
@@ -16,6 +18,25 @@
 
     <!-- MAIN -->
     <main class="main">
+
+        <section class="hero mt-5">
+            <div class="container">
+                <form class="form d-flex flex-column w-50 px-3 py-4 border-0 rounded bg-secondary mx-auto">
+                    <div class=" d-flex flex-column w-100 mb-3 justify-content-center">
+                        <div class="form__left mb-3">
+                            <label class="form-label w-100 m-0">
+                                <input class="form__input form-control border-primary" min="0" type="number"
+                                    name="state_population" required placeholder="Population number" autocomplete="off">
+                            </label>
+                        </div>
+                        <div class="form__result bg-light text-secondary border border-primary rounded p-2"> Percent
+                            world population
+                        </div>
+                    </div>
+                    <button class=" btn btn-primary " type="submit">O'girish</button>
+                </form>
+            </div>
+        </section>
 
     </main>
 
@@ -30,4 +51,5 @@
     <script src="./js/script.js"></script>
 
 </body>
+
 </html>
